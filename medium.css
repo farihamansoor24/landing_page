@@ -8,13 +8,16 @@
 .menu_img:hover .nav{
     display: block;
 }
-
+.btn_div{
+        width: 60%;
+}
 .wrapper{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding: 20px;
  
 }
 .wrapper_text{
@@ -31,6 +34,15 @@
 }
 .infoDiv{
     width: 100%;
+}
+.item b {
+    font-size: 2em;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:10px
 }
 /* ------ABOUT Section ---- */
 .contentInfo{
