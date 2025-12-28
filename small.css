@@ -13,4 +13,32 @@
 }
 .infoDiv{
     width: 100%;
+    margin-left: 0;
+}
+#about{
+    padding:20px;
+}
+.section h1 {
+    font-size: 2em;
+}
+.section3 h2 {
+    font-size: 2em;
+}
+.wrapper{
+    padding: 20px;
+}
+.wrapper_text h2 {
+        font-size: 1.5em;
+}
+.item b {
+    font-size: 2em;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:10px
+}
+.footer .credit{
+    font-size: 1rem;
 }

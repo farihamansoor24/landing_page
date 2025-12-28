@@ -18,19 +18,23 @@
  
 }
 .wrapper_text{
-    width: 100vw;
-    padding: 40px;
+    width: 100%;
  
 }
-.wrapper_image{
-    width: 100vw;
+.wrapper_text h2 {
+    font-size: 2.3em;
+}
+.img{
+    width: 100%;
     text-align: center;
    
 }
-
+.infoDiv{
+    width: 100%;
+}
 /* ------ABOUT Section ---- */
 .contentInfo{
-   width: 100vw;
+   width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
