@@ -8,5 +8,6 @@ nav, nav ul{
 .btn_div{
     display: flex;
     flex-direction: column;
-    gap:20px
+    gap:20px;
+
 }
