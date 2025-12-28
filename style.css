@@ -18,32 +18,7 @@
 }
 
 
-/* -------Image Animation----------- */
-.img{
-    width:48%
-}
 
-.img img {
-  width:98% ;
-  overflow: hidden;
-  min-height: 400px;
-  transition: transform 1s ease-in-out;
-}
-
-.img img {
-  min-height: 400px;
-  animation: floatUpDown 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes floatUpDown {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(20px);
-  }
-}
-/* ------------Animation End Here---------------------- */
 /* --------- Header Start-------- */
 header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -158,6 +133,32 @@ li a:hover{
     min-height: 100vh;
 
 }
+/* -------Image Animation----------- */
+.img{
+    width:48%
+}
+
+.img img {
+  width:98% ;
+  overflow: hidden;
+  min-height: 400px;
+  transition: transform 1s ease-in-out;
+}
+
+.img img {
+  min-height: 400px;
+  animation: floatUpDown 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes floatUpDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+/* ------------Animation End Here---------------------- */
 /* ----ABOUT Section Styling------ */
 .contentHead {
     padding-top: 2em;
@@ -449,20 +450,21 @@ li a:hover{
   text-transform: capitalize;
 }
 
-.footer .box-container .box a {
+.box a {
   display: block;
   font-size: 1em;
   color: white;
   padding: 1rem 0;
   font-weight: lighter;
+  text-transform: capitalize;
 }
 
-.footer .box-container .box a i {
+.box a i {
   padding-right: 0.5rem;
   color: rgb(62, 181, 62);
 }
 
-.footer .box-container .box a:hover i {
+.box a:hover i {
   padding-right: 2rem;
 }
 
