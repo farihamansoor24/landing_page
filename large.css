@@ -1,0 +1,12 @@
+nav, nav ul{
+    display: none;
+
+}
+.menu_img{
+    display: block;
+}
+.btn_div{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}

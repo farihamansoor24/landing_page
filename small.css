@@ -1,0 +1,16 @@
+.nav{
+    display: none;
+
+}
+.menu_img{
+    display: block;
+}
+.menu_img:hover .nav{
+    display: block;
+}
+.img{
+    width: 100%;
+}
+.infoDiv{
+    width: 100%;
+}
