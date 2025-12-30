@@ -1,145 +1,163 @@
-
-:root{
- --white-color:white;
- --green-color:rgb(81, 211, 81);
- --black-color:black;
- --gray1-heading-color:rgb(202, 199, 199);
- --gray2-heading-color:rgb(135, 133, 133);
- --gray-p-color:rgb(161, 158, 158);
+:root {
+  --white-color: white;
+  --green-color: rgb(81, 211, 81);
+  --black-color: black;
+  --gray1-heading-color: rgb(202, 199, 199);
+  --gray2-heading-color: rgb(135, 133, 133);
+  --gray-p-color: rgb(161, 158, 158);
 
 
 }
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:sans-serif;
-    scroll-behavior: smooth;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 
 
 /* --------- Header Start-------- */
-header{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: var(--black-color);
-    height: 70px;
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    padding: 40px;
-    z-index: 1;
+header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: var(--black-color);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  z-index: 1;
 }
-header h1{
-    color: var(--white-color);
-    flex-grow: 1;
+
+header h1 {
+  color: var(--white-color);
+  flex-grow: 1;
 }
-h1 span{
-    color:var(--green-color);
+
+h1 span {
+  color: var(--green-color);
 }
-nav, nav ul{
-    display: flex;
-    gap:80px;
+
+nav,
+nav ul {
+  display: flex;
+  gap: 80px;
 }
-.menu_img{
-    display: none;
+
+.menu_img {
+  display: none;
 }
-li a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--white-color);
-    font-size: 1rem;
-} 
-li a:hover{
-    color: var(--green-color);
+
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 1rem;
 }
+
+li a:hover {
+  color: var(--green-color);
+}
+
 /* ---------Header End------- */
 
 
 /* ------ Landing Page Styling */
-.wrapper{
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    padding: 80px;
+.wrapper {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px;
 }
-.bg_image{
- background-image: linear-gradient(to left,rgba(2, 203, 46, 0.5),rgba(0,0,0,.9)), url('./bg-image.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.bg_image {
+  background-image: linear-gradient(to left, rgba(2, 203, 46, 0.5), rgba(0, 0, 0, .9)), url('./bg-image.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.wrapper_text{
-     width:48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:40px;
-    min-height: 100vh;
+
+.wrapper_text {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  min-height: 100vh;
 }
-.wrapper_text h2{
-    font-size: 2.5em;
-    color: var(--gray1-heading-color);
+
+.wrapper_text h2 {
+  font-size: 2.5em;
+  color: var(--gray1-heading-color);
 }
-.wrapper_text h2 span{
-   
-    color: var(--gray2-heading-color);
+
+.wrapper_text h2 span {
+
+  color: var(--gray2-heading-color);
 }
-.para{
-    color: var(--gray-p-color);
-    line-height: 24px;
+
+.para {
+  color: var(--gray-p-color);
+  line-height: 24px;
 }
-.para b{
-    color: var(--black-color);
-    font-size: 1.2em;
-    text-transform: capitalize;
+
+.para b {
+  color: var(--black-color);
+  font-size: 1.2em;
+  text-transform: capitalize;
 }
 
 /* .wrapper_image img{
     min-height: 400px;
 } */
 .btn {
-    outline: none;
-    border: 1px solid rgb(81, 211, 81);
-    border-radius: 5px;
-    padding: 1em 2em;
-    background: transparent;
-    color: rgb(81, 211, 81);
-    font-size: 1em;
-    cursor: pointer;
-    margin: 0 2px;
+  outline: none;
+  border: 1px solid rgb(81, 211, 81);
+  border-radius: 5px;
+  padding: 1em 2em;
+  background: transparent;
+  color: rgb(81, 211, 81);
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 2px;
 }
+
 .btn:hover {
   background: rgb(81, 211, 81);
   color: white;
   border: 1px solid rgb(81, 211, 81);
 }
+
 .color_btn {
-    background: rgb(81, 211, 81);
-    color: white;
+  background: rgb(81, 211, 81);
+  color: white;
 }
+
 .color_btn:hover {
   background: rgb(71, 207, 71);
   box-shadow: 2px 2px 10px rgb(62, 181, 62);
 }
 
 
-.section{
-    width: 100%;
-    min-height: 100vh;
+.section {
+  width: 100%;
+  min-height: 100vh;
 
 }
+
 /* -------Image Animation----------- */
-.img{
-    width:48%
+.img {
+  width: 48%
 }
 
 .img img {
-  width:98% ;
+  width: 98%;
   overflow: hidden;
   min-height: 400px;
   transition: transform 1s ease-in-out;
@@ -154,50 +172,58 @@ li a:hover{
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(20px);
   }
 }
+
 /* ------------Animation End Here---------------------- */
 /* ----ABOUT Section Styling------ */
 .contentHead {
-    padding-top: 2em;
-    text-align: center;
-    background: transparent;
+  padding-top: 2em;
+  text-align: center;
+  background: transparent;
 }
-.section h1{
-    font-size: 2.5rem;
-    color: var(--black-color);
-    text-align: center;
-    margin-top: 40px;
-    text-transform: uppercase;
+
+.section h1 {
+  font-size: 2.5rem;
+  color: var(--black-color);
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
 }
-.section h1 span{
-    color: var(--green-color);
+
+.section h1 span {
+  color: var(--green-color);
 }
-.contentInfo{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    padding: 5em 2em;
+
+.contentInfo {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  padding: 5em 2em;
 }
-.infoDiv{
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 4em;
+
+.infoDiv {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 4em;
 }
 
 /* -------Section2 Styling---- */
-#about{
-    padding:40px;
+#about {
+  padding: 40px;
 }
-.about .para{
-    font-size: .9em;
+
+.about .para {
+  font-size: .9em;
 
 }
+
 /* --------SECTIO2 END HERE------- */
 /* ----Section3 Start Here -------*/
 
@@ -205,37 +231,45 @@ li a:hover{
   min-height: 300px;
   padding: 2em 0;
   text-align: center;
-  
+
 }
- .section3 h2 {
-    font-size: 2.5em;
-    text-transform: uppercase;
-    color: white;
-  }
-  .section3 p {
-    font-size: 0.9em;
-    background-color: rgba(0, 0, 0, 0.35);
-  }
+
+.section3 h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section3 p {
+  font-size: 0.9em;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
 .flex {
   display: flex;
   justify-content: space-evenly;
   padding: 2em 0;
 }
+
 .item {
   color: white;
   display: flex;
   flex-direction: column;
   font-weight: 200;
 }
+
 .item i {
   font-size: 3.2em;
 }
+
 .item b {
   font-size: 5em;
 }
+
 .item span {
   font-size: 1.5em;
 }
+
 #numbers-section {
   background: url("./landmark.jpg") center no-repeat;
   background-size: cover;
@@ -245,62 +279,70 @@ li a:hover{
 /* --------End Here------ */
 
 /* -----Section4 Start Here----- */
-  .section4 h2 {
-    font-size: 2.5em;
-    color: var(--black-color);
-    text-transform: uppercase;
-  }
-  .section4 span {
-    color: var(--green-color);
-  }
-   .section4 .para {
-    font-size: 0.9em;
-    background-color: transparent;
-  }
+.section4 h2 {
+  font-size: 2.5em;
+  color: var(--black-color);
+  text-transform: uppercase;
+}
+
+.section4 span {
+  color: var(--green-color);
+}
+
+.section4 .para {
+  font-size: 0.9em;
+  background-color: transparent;
+}
 
 /* ---------Section5 End Here */
 
 /* -------Section5 Start Here */
-.section5{
-    background-color: var(--black-color);
-    min-height: 100vh;
+.section5 {
+  background-color: var(--black-color);
+  min-height: 100vh;
 }
 
-.section5Content h2{
-    font-size: 2.5em;
-    color: var(--gray1-heading-color);
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 40px;
+.section5Content h2 {
+  font-size: 2.5em;
+  color: var(--gray1-heading-color);
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
 }
-.section5Content h2 span{
-   
-    color: var(--gray2-heading-color);
+
+.section5Content h2 span {
+
+  color: var(--gray2-heading-color);
 }
-.section5Content .para{
-    text-align: center;
+
+.section5Content .para {
+  text-align: center;
 }
-.b_color b{
-    color: var(--white-color);
+
+.b_color b {
+  color: var(--white-color);
 }
+
 /* -------Section5 End Here */
 
 /* ---------Section6 Start Here------- */
-.section6 .para6{
-    color: rgb(214, 219, 219); 
-    line-height: 28px;
+.section6 .para6 {
+  color: rgb(214, 219, 219);
+  line-height: 28px;
 }
+
 /* ---------Section6 Start Here------- */
 
 /* ----Gallery Section Styling Start------ */
-.gallery_heading{
-        padding-top: 2em;
-        text-align: center;
-        font-size: 2.5em;
-        color: var(--green-color);
-        text-transform: uppercase;
+.gallery_heading {
+  padding-top: 2em;
+  text-align: center;
+  font-size: 2.5em;
+  color: var(--green-color);
+  text-transform: uppercase;
 
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -311,25 +353,21 @@ li a:hover{
 }
 
 .octagonWrap {
-  width: 200px;
-  height: 200px;
-  float: left;
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-  /* margin: 20px; */
 }
 
 .octagon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
   overflow: hidden;
   transform: rotate(45deg);
+  width: 200px;
+  height: 200px;
+  border: 8px solid black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   background: #ffffff;
-  border: 5px solid black;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   transition: transform 0.3s;
 }
@@ -350,9 +388,10 @@ li a:hover{
 .contactSection {
   width: 100%;
   min-height: 80vh;
-  background: linear-gradient(to left,rgba(0,0,0,.5)), url("./bg-image.avif") center no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, .5)), url("./bg-image.avif") center no-repeat;
   background-size: cover;
 }
+
 .contactWrapper {
   display: flex;
   justify-content: center;
@@ -360,6 +399,7 @@ li a:hover{
   min-height: 100vh;
   padding: 2em;
 }
+
 .contactAddress {
   height: 480px;
   width: 100%;
@@ -378,6 +418,7 @@ li a:hover{
   justify-content: space-evenly;
   align-items: center;
 }
+
 .form h2,
 .contactAddress span {
   color: white;
@@ -389,6 +430,7 @@ li a:hover{
   margin-left: 0.6em;
   text-transform: capitalize;
 }
+
 .form input,
 .form textarea {
   background: transparent;
@@ -405,6 +447,7 @@ li a:hover{
   color: black;
   font-weight: bold;
 }
+
 .contactAddress p {
   font-size: small;
   color: rgb(135, 133, 133);
@@ -419,12 +462,15 @@ li a:hover{
   gap: 2%;
   padding: 0.5em 0;
 }
+
 .d p {
   font-size: smaller;
 }
+
 .d i {
   padding: 0 0.5em;
 }
+
 .d b {
   font-size: 1em;
 }
@@ -469,7 +515,7 @@ li a:hover{
 }
 
 .footer .credit {
-    text-transform: capitalize;
+  text-transform: capitalize;
   padding: 1rem;
   padding-top: 2rem;
   margin-top: 2rem;
@@ -483,4 +529,5 @@ li a:hover{
 .footer .credit span {
   color: rgb(62, 181, 62);
 }
+
 /* -----Footer End--------- */
